@@ -1,0 +1,9 @@
+server:
+  port: 9092
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: shahzad
+  
